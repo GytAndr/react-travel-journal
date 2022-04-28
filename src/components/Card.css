@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    width: 471px;
+    height: 168px;
+}
+.card--image {
+width: 125px;
+height: 168px;
+border-radius: 5px;
+object-fit: cover;
+object-position: center;
+}
+.card-dates {
+    font-weight: 700;
+    font-size: 10px;
+    color: #2B283A;
+    margin: 9px 0;
+}
+.card--description {
+    font-size: 10px;
+    color: #2B283A;
+}
+.card--location {
+    font-size: 11px;
+    color: #2B283A;
+}
+.card--location :not(a) {
+    letter-spacing: 0.17em;
+}
+.card--location img {
+    width: 7px;
+    height: 9.55px;
+}
+.card--location a {
+    margin-left: 12px;
+    color: #918E9B;
+}
+.card--title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin: 4px 0 14px;
+}
